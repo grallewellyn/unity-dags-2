@@ -93,7 +93,7 @@ dag = DAG(
         "process_workflow": Param(
             DEFAULT_PROCESS_WORKFLOW,
             type="string",
-            title="Processing workflow",
+            title="Processing workflow2",
             description="The processing workflow URL",
         ),
         "process_args": Param(
