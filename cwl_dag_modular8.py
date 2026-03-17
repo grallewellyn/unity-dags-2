@@ -87,19 +87,19 @@ dag = DAG(
         "stac_json1": Param(
             DEFAULT_STAC_JSON,
             type="string",
-            title="STAC JSON",
+            title="STAC JSON1",
             description="STAC JSON data to download granules encoded as a JSON string or the URL of a JSON or YAML file",
         ),
         "process_workflow1": Param(
             DEFAULT_PROCESS_WORKFLOW,
             type="string",
-            title="Processing workflow",
+            title="Processing workflo1w",
             description="The processing workflow URL",
         ),
         "process_args1": Param(
             DEFAULT_PROCESS_ARGS,
             type="string",
-            title="Processing workflow parameters",
+            title="Processing workflow parameters1",
             description=(
                 "The processing job parameters encoded as a JSON string," "or the URL of a JSON or YAML file"
             ),
